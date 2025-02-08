@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/images/img.jpg);
+  height: 75vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  position: relative;
+
+}
+
+.box {
+  height: 75vh;
+  width: 100%;
+  opacity: 0.52;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  max-width: 60vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+
+nav img {
+  color: red;
+  width: 150px;
+  position: relative;
+  z-index: 10;
+
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+
+}
+
+.hero {
+  height: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero> :nth-child(1) {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 15px;
+
+}
+
+.hero>:nth-child(2) {
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 28px;
+
+}
+
+.hero>:nth-child(3) {
+  font-weight: 400;
+  font-size: 23px;
+
+}
+
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  background-color: rgba(56, 56, 56, 0.582);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px;
+
+
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+
+
+
+}
+
+.btn-red-sm {
+  background-color: red;
+  color: white;
+
+}
+
+.main input {
+  border-radius: 5px;
+  padding: 8px 90px 5px 5px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  background-color: rgba(23, 23, 23, 0.7);
+  color: white;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 70vw;
+  color: white;
+
+}
+
+
+
+.secImg {
+  position: relative;
+}
+
+.secImg Img {
+  width: 542px;
+  position: relative;
+  z-index: 10;
+
+}
+
+.secImg video {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 472px;
+  height: 400px
+}
+
+section.first>div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+
+section.first>div :nth-child(1) {
+  font-size: 48px;
+  font-weight: bold;
+
+}
+
+section.first>div :nth-child(2) {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.separation {
+  height: 6px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+
+}
+
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 70vw;
+  color: white;
+
+
+}
+
+section.second>div :nth-child(1) {
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: start;
+
+}
+
+section.second>div :nth-child(2) {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 70vw;
+  color: white;
+
+}
+
+section.fourth>div :nth-child(1) {
+  font-size: 40px;
+  font-weight: bolder;
+
+
+}
+
+section.fourth>div :nth-child(2) {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.faq {
+  background-color: black;
+  color: white;
+  padding: 35px;
+}
+
+.faqbox:hover {
+  background-color: rgb(145, 142, 142);
+  color: black;
+  filter: invert(1);
+
+}
+
+.faqbox {
+  transition: all 0.3s ease-out;
+  display: flex;
+  background-color: #2d2d2d;
+  padding: 20px;
+  max-width: 60vw;
+  font-size: 22px;
+  margin: 15px auto;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.Main div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.Main input {
+  border-radius: 5px;
+  padding: 8px 90px 5px 5px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  background-color: rgba(23, 23, 23, 0.7);
+  color: white;
+  margin-bottom: 30px;
+}
+
+.Main span {
+  color: white;
+  font-size: 25px;
+  justify-content: center;
+  display: flex;
+}
+
+
+footer {
+  color: white;
+  margin: auto;
+  padding: 34px;
+  max-width: 60vw;
+}
+
+footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.Question {
+  padding: 34px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+
+  }
+
+  .btn-red {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .main input {
+    padding: 5px;
+  }
+
+  .faq h2 {
+    font-size: 25px;
+  }
+
+  .faqbox {
+    padding: 14px;
+    font-size: 20px;
+  }
+
+  .footer-item {
+    align-items: center;
+  }
+
+  footer {
+    max-width: 90vw;
+  }
+
+  .main {
+    height: 130vw;
+    padding: 40px;
+  }
+
+  .Main input {
+    padding: 5px;
+    margin-inline-start: 2px;
+  }
+
+  .Main {
+    justify-items: center;
+  }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+  .first,
+  .second,
+  .fourth {
+    flex-wrap: wrap;
+    font-size: 10px;
+    max-width: 45px;
+  }
+
+  .secImg Img {
+    width: 320px;
+
+
+  }
+
+  .secImg video {
+
+    width: 278px;
+    height: 219px;
+  }
+
+  .Main span {
+    font-size: 25px;
+    padding: 45px;
+    margin-left: 10px;
+  }
+
+  .hero> :nth-child(1) {
+    padding: 40px;
+    font-size: 32px;
+    margin: 2px;
+  }
+
+  .hero> :nth-child(2) {
+    font-size: 25px;
+
+
+  }
+
+  .hero> :nth-child(3) {
+    font-size: 20px;
+    margin-left: 35px;
+
+  }
+
+  nav img {
+    margin-left: -50px;
+  }
+
+  nav {
+    margin-left: 80px;
+  }
+
+}
+
+.footer-item {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
