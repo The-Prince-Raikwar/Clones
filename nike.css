@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(rgba(30, 75, 200, 0.8), rgba(30, 75, 200, 0.8)), url(images/background.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.nav-bar {
+  display: flex;
+  height: 12%;
+}
+
+.navbar-inner {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navbar-left {
+  flex-basis: 82%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbar-right {
+  flex-basis: 30%;
+  background-color: #fff;
+}
+
+div svg {
+  cursor: pointer;
+}
+
+
+.navbar-inner ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  z-index: 10;
+  padding: 25px;
+
+}
+
+.navbar-inner ul li {
+  font-family: cursive;
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.navbar-inner ul li a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar-right ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin-inline-start: 80px;
+}
+
+.navbar-right ul li {
+  margin-top: 25px;
+  margin-right: 20px;
+
+}
+
+.navbar-right ul li a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  height: 88%;
+}
+
+.content-left {
+  flex-basis: 70%;
+  position: relative;
+}
+
+.content-right {
+  flex-basis: 30%;
+  position: relative;
+  background-color: #fff;
+}
+
+.upper-text {
+  opacity: 0.6;
+  left: 15%;
+  top: 20%;
+  position: absolute;
+  color: lightblue;
+}
+
+.upper-text h1 {
+  font-size: 190px;
+  margin-left: 50px;
+  line-height: 85px;
+  font-style: italic;
+}
+
+.upper-text h2 {
+  font-size: 80px;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bottom-text {
+  left: 55%;
+  bottom: 12%;
+  position: absolute;
+  opacity: 0.5;
+  color: lightblue;
+}
+
+.bottom-text h1 {
+  font-size: 65px;
+  margin-left: 280px;
+  line-height: 20px;
+}
+
+.bottom-text h2 {
+  font-size: 30px;
+  margin-left: 180px;
+  line-height: 53px;
+}
+
+.bottom-text h3 {
+  font-size: 50px;
+  margin-left: 120px;
+  line-height: 15px;
+}
+
+.content-left img {
+  position: relative;
+  z-index: 10;
+  top: -12%;
+  right: -20%;
+  margin-left: 137px;
+}
+
+.content-right img {
+  top: 10%;
+  left: 25%;
+  position: absolute;
+  opacity: 0.2;
+  margin-top: 45px;
+  margin-left: 35px;
+  height: 35vh;
+}
+
+.product-details {
+  bottom: 5%;
+  left: 10%;
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+.price-box {
+  width: 170px;
+  display: flex;
+  height: 150px;
+  align-items: center;
+  box-shadow: -40px 0px 20px -40px rgba(189, 189, 189, 0.5), 40px 0px 20px -40px rgba(189, 189, 189, 0.5);
+}
+
+.price {
+  flex-basis: 70%;
+}
+
+.price h1 {
+  font-size: 25px;
+  color: seagreen;
+  opacity: 0.7;
+}
+
+.price h2 {
+  font-size: 30px;
+  color: #110a0a;
+
+}
+
+.price h3 {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.varient {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.varient div {
+  width: 13px;
+  height: 13px;
+  margin: 5px auto;
+
+}
+
+.varient div:nth-child(1) {
+  background-color: red;
+  scale: 1.2;
+}
+
+.varient div:nth-child(2) {
+  background-color: blue;
+}
+
+.varient div:nth-child(3) {
+  background-color: lime;
+}
+
+.varient div:nth-child(4) {
+  background-color: purple;
+}
+
+.varient div:nth-child(5) {
+  background-color: pink;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  opacity: 0.98;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.social-link {
+  bottom: 120px;
+  right: -110px;
+  position: absolute;
+  transform: rotate(-90deg);
+}
+
+.social-link ul li {
+  list-style: none;
+  margin: 20px 10px;
+  display: inline-block;
+}
+
+.social-link ul li a {
+  text-decoration: none;
+  color: #999;
+}
